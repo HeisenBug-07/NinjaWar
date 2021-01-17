@@ -351,7 +351,7 @@ const warriors = [
     name: "Karin",
     clan: "Uzumaki Clan.",
     tagLine:
-      "skilled martial artist and ninja, chakra manipulation, can sense chakra, able to suppress her chakra, regeneration and healing",
+      "chakra manipulation, able to suppress her chakra, regeneration and healing",
     img: "images/kiran.jpg",
   },
 ];
