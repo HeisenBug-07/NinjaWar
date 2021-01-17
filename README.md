@@ -6,3 +6,5 @@ this game is based on famous anime "NARUTO SHIPPUDEN".
 - select your warrior from the "CARD DRAWER".
 - when the round is over press the "NEXT ROUND" button.
 - press "NEW GAME" button to play again OR when the game is over.
+
+## Game LinK : https://heisenbug-07.github.io/NinjaWar/
