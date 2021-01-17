@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NinjaWar</title>
+  </head>
+  <body>
+    <div class="game">
+      <h1 class="heading">NinjaWar</h1>
+      <div class="battle-field">
+        <h1 class="round-no">Round 1</h1>
+        <div class="computer-panel">
+          <div class="name">Bot</div>
+          <div class="score-bot">0</div>
+          <div class="card">
+            <img
+              src="images/def.jpg"
+              id="default"
+              class="bot-img"
+              alt="Avatar"
+            />
+            <div class="container">
+              <h2 class="bot-name">???</h2>
+              <p class="bot-clan">???</p>
+            </div>
+          </div>
+          <br />
+          <p class="bot-tagLine">....................</p>
+        </div>
+        <div class="player-panel">
+          <div class="name">Noob</div>
+          <div class="score-player">0</div>
+          <div class="card">
+            <img src="images/def.jpg" class="player-img" alt="Avatar" />
+            <div class="container">
+              <h2 class="player-name">???</h2>
+              <p class="player-clan">???</p>
+            </div>
+          </div>
+          <br />
+          <p class="player-tagLine">................</p>
+        </div>
+      </div>
+      <div class="selection-card">
+        <h3>Card Drawer</h3>
+        <hr />
+        <br />
+        <div class="card-grid">
+          <div class="container-card">
+            <img src="images/def.jpg" class="grid-img" />
+          </div>
+          <div class="container-card">
+            <img src="images/def.jpg" class="grid-img" />
+          </div>
+
+          <div class="container-card">
+            <img src="images/def.jpg" class="grid-img" />
+          </div>
+
+          <div class="container-card">
+            <img src="images/def.jpg" class="grid-img" />
+          </div>
+
+          <div class="container-card">
+            <img src="images/def.jpg" class="grid-img" />
+          </div>
+
+          <div class="container-card">
+            <img src="images/def.jpg" class="grid-img" />
+          </div>
+        </div>
+        <button class="nxt-round">Next Round</button>
+      </div>
+      <div class="new">
+        <button class="new-game">New Game</button>
+      </div>
+    </div>
+  </body>
+  <script src="game.js"></script>
+</html>

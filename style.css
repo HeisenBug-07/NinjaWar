@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d3d3d3;
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  font-weight: 300;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  color: antiquewhite;
+}
+.heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px;
+  color: rgba(6, 74, 119, 0.918);
+  font-weight: 900;
+}
+.round-no {
+  color: #170938d8;
+}
+.battle-field {
+  width: 800px;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  text-align: center;
+  /* padding: 10px; */
+  margin-top: 100px;
+  padding-top: 10px;
+}
+.computer-panel,
+.player-panel {
+  width: 50%;
+  float: left;
+  height: 450px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgba(91, 131, 177, 0.829);
+}
+.computer-panel {
+  background-color: #5b84b1ff;
+}
+.score-bot,
+.score-player {
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(192, 238, 106);
+}
+.name {
+  font-size: 24px;
+  color: rgb(253, 194, 0);
+}
+.selection-card {
+  float: right;
+  /* height: 400px; */
+  padding: 50px;
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  width: 300px;
+  box-shadow: 0px 10px 50px rgba(250, 0, 0, 0.3);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+  color: whitesmoke;
+  background-color: #6198a0bd;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+}
+img {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+}
+.container {
+  padding: 2px 16px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0.5em;
+  justify-content: center;
+}
+.grid-img {
+  color: antiquewhite;
+  margin: 0 20px 0 20px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.container-card {
+  position: relative;
+  width: 50%;
+}
+
+.container-card:hover {
+  opacity: 0.7;
+}
+.stop-selection {
+  pointer-events: none;
+}
+.nxt-round {
+  margin-top: 20px;
+  color: antiquewhite;
+  background: none;
+  border: none;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  transition: background-color 0.3s, color 0.3s;
+  opacity: 0;
+  pointer-events: none;
+}
+.active {
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.new-game {
+  position: relative;
+  margin-top: 20px;
+  background-color: #d3d3d3;
+  color: rgb(98, 94, 94);
+  border: none;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.new-game:hover,
+.rules:hover {
+  background-color: #555555;
+  color: white;
+}
+.new-game {
+  float: right;
+  height: 45px;
+  padding: 50px;
+  position: absolute;
+  top: 480px;
+  left: 65%;
+  width: 300px;
+  box-shadow: 0px 10px 50px rgba(250, 0, 0, 0.3);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+}
