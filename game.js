@@ -463,13 +463,13 @@ const ninjaPlayerFxn = function () {
           setTimeout(() => {
             resultNround.style.color = "red";
             resultNround.innerHTML = "you LOST the war";
-          }, 1000);
+          }, 1300);
         } else {
           playGame = 1;
           setTimeout(() => {
             resultNround.style.color = "green";
             resultNround.innerHTML = "you WON the war";
-          }, 1000);
+          }, 1300);
         }
       }
 
